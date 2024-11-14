@@ -46,7 +46,7 @@
 보편적으로 React 혹은 Next.js 프로젝트에서는 하위의 폴더 구조를 가져간다는 것을 알고있습니다.
 
 `src > [pages/app, components, hooks, utils, ...]`
-그리고, 보편적으로 page를 제외한 src 하위의 폴더들은 공통으로 쓰이는 값들로 구성하는 것으로 알고 있고요. (ex. GlobalNavigation, Footer, useModal, ...)
+그리고, 보편적으로 page를 제외한 src 하위의 폴더들은 공통으로 쓰이는 값들로 구성하는 것으로 알고 있고요. (ex. FilterHeader, Selectbox, DrawerModalLayout, ...)
 그렇다면, Page 하위에서 비즈니스 로직이 포함된 컴포넌트, 훅, 유틸 등은 어디에서/어떻게 관리해야 협업 또는 효율 측면에서 좋은 코드라고 생각하시는지가 궁금합니다.
 
 개인적으로는, pages 하위에 비즈니스 로직을 포함한 파일들은
